@@ -1,0 +1,54 @@
+Assign2 Due 11:59PM October 13
+
+In this assignment we will write unit tests. You may pick any tools you like to write the unit tests, depending on the languages you are using. Start with a canary test.
+
+A canary test is a silly test that asserts that true is true. This helps us to know that the environment, tools, and build files are setup properly.
+
+For example, for Java, a canary test would look like this:
+
+@Test
+void canaryTest() {
+  assertTrue(true);
+}                  
+
+Now to the problem at hand.
+
+Pick three languages that natively support (not through extensions) tail recursion. At least one of the languages you pick has to be statically typed and at least one has to be dynamically typed.
+
+We will write functions that return the factorial of a given number. Given a number n, where n >= 0, the factorial is 1 if n == 0, otherwise, it is 1 * 2 * 3 * ... n.
+
+Written as a recursion, we can say factorial(n) is n * factorial(n - 1).
+
+Implement a function to compute factorial using:
+
+1. regular recursion
+
+2. tail recursion
+
+Provide automated build script to run the tests.
+
+For reviews, please start with one language and the canary test in it for the first review. Then work on the regular recursion, with a series of tests for the next review. Then work on the tail recursion. After we finish one language we will move on to the next language.
+
+Total [100]: 100
+
+Language 1:
+Recursive [6]:
+Tail recursive [6]:
+Tests for 50 or such [7]:
+Test to confirm recursive behavior [7]:
+Test to confirm TCO [7]:
+
+Language 2:
+Recursive [6]:
+Tail recursive [6]:
+Tests for 50 or such [7]:
+Test to confirm recursive behavior [7]:
+Test to confirm TCO [7]:
+
+Language 3:
+Recursive [6]:
+Tail recursive [6]:
+Tests for 50 or such [7]:
+Test to confirm recursive behavior [7]:
+Test to confirm TCO [7]:
+

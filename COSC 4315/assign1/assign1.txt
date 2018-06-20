@@ -1,0 +1,113 @@
+Assign1 Due 11:59PM September 22
+
+For this assignment we will use three different languages. One has to be a statically typed language. One has to be a dynamically typed language. A third is your choice. Do not pick two languages that are too similar to each other.
+
+Create files using proper extensions. Also create either a build file or a sh file that will compile (if necessary) and run your code to display the output or show test results automatically.
+
+If you need help with any of the steps, please ask. You do not have to fight with tools or code for a long time. The purpose of this course is to learn. If you're stuck, then ask for help and it will be given. If you start early, you will be able to make much better progress than if you start late.
+
+In each of the languages, create two implementations for a function that will tell whether a number, given as argument, is a perfect number or not.
+
+A perfect number is a number greater than 1 whose factors total to twice the number. For example, the factors of 6 are 1, 2, 3, and 6. The total of these values is 12 which is twice the given number 6.
+
+The first implementation, in each language, should be in imperative style. The second implementation, in each language, should be in functional style.
+
+Suggestion: Start with one language. Write the code in that languages, evolve it using reviews. Once you've completed code in one language (and gotten a satisfactory review), then create in second language. Once that's completed, proceed to the third language.
+
+After completing the coding (and only after that), answer the following questions:
+
+1. Discuss some of the things you have learned from working on this assignment.
+
+We learned about the differences and similarities in syntax among three
+languages. An example of this would be the way to declare variables such as def
+varName in Groovy, var varName in Swift, and var varName in JavaScript. Swift
+and JavaScript both provide var and let as reserved words to declare variables;
+however, they mean different things in both languages. In Swift, var signifies
+mutable variables while let signifies immutable variables, so the use of let or
+var depends on the variable's purpose. In JavaScript, var and let indicate
+different scopes of variable declarations; for example, var has a wider
+possible scope and let has a smaller possible scope. It is preferable to use
+let to declare variables in Javascript to achieve better control over variable
+declaration by avoiding accidentally overwriting variables at different scopes.
+So, when working with multiple languages that have similar syntax, paying
+attention to the semantics of each language ensures the development process to
+occur with less headaches from unexpected error.
+
+2. Were there any thing that surprised you or things that you did not expect.
+
+In creating the functional style implementation of the perfect number test, it
+was surprising to see that a function could be defined within a function or
+treated as a first class citizen. Other forms of functions like closures
+expanded our understanding of the use scenarios for functions, yet the true
+potential of functions and closures was not evident until we were challenged
+to write a functional program without the use of recursion. Functions
+used with higher order functions allowed us to create functional style
+implementations of the perfect number test, and it was surprising to see the
+availability of higher order functions in all the languages we implemented
+because these languages are not primarily functional style languages.
+
+3. Given this experience, draw a comparison between the imperative style and the functional style.
+
+The imperative style is very simple, straightforward, and universal. In the
+three languages we used, the imperative style implementation was exactly the
+same other than minor syntax differences. Imperative style uses mutating
+variables and loops to determine whether a number is a perfect number. On the
+other hand, the functional style implementation was not as intuitive and
+required us to search for various methods that each language contained for a
+successful implementation. In particular, changing our approach to include
+immutable variables and higher order functions to determine whether a number is
+a perfect number was challenging.
+
+4. Given this experience, draw a comparison between static typing and dynamic typing.
+
+With static typing languages, errors were reported when trying to compile the
+code. With dynamic typing languages, the errors were not found until we had run
+the code and it displayed an error message.
+
+5. Of the three languages that you used, what are your impressions about each, their strengths, weaknesses, your likes/dislikes.
+
+Groovy:
+Though using it for the first time, it was very familiar as it is similar to
+Java and Python. Its strengths would include the type inference and use of
+expressions. Type inference allows more focus on the implementation for the
+task at hand and less worrying about what type of variables to use where and
+the use of expressions allow us to perform more tasks with less code. However,
+its strength of type inference is also a weakness. When programming in Groovy,
+there were times where the type inferred was not the type that we desired to
+use.
+
+
+Swift:
+Despite being a young language, Swift provides many of the needs for a modern
+programming language. There are many similar characteristics Swift shares with
+other OOP languages, so it was not difficult to begin learning. The greatest
+strength of Swift is being a statically typed language with type inference. So,
+initial development takes less time than other statically typed languages. The
+one weakness of Swift is a tendency to engender ceremony, meaning, if the
+type inference is not utilized, a program becomes unnecessarily clunky. I do
+not like the ambiguity in some of Apple's documentation of Swift. While I was
+reading about higher order functions of Swift, the use cases of the higher
+order functions were not exhaustively defined, which required more trial and
+error to properly use them for the functional style implementation of the
+perfect number test. I do like the development environment that is available
+for Swift on macOS because Xcode provides live compiling of code and Terminal
+provides a Swift REPL.
+
+
+JavaScript:
+It was very easy to learn, but it has strange quirks such as how a boolean
+equal to test would normally be == but was === in JavaScript. Its strength
+would be in its ease to learn and the speed in which it executes code. A
+weakness of JavaScript would be the number of JavaScript language versions
+there are such as ECMAScript 5.1, ECMAScript 6, Flow, and ReactJSX. For
+example, when coding the functional style implementation, ECMAScript 5.1 was
+the version used at first as I was unaware there was an ECMAScript 6 version. I
+tried using the let, filter, and reduce methods but was unable to because I was
+using the wrong version.
+
+
+Total [100]: 100
+Language 1 [30]:
+Language 2 [30]:
+Language 3 [30]:
+Questions  [10]:

@@ -1,0 +1,26 @@
+Project
+
+Due Date: December  1, 2017 23:59:59
+
+In this assignment you will create the program as discussed below.
+
+Problem statement:
+Implement an application that will perform the following actions:
+
+1.	Prompt the user and read in value for the year of their birth (e.g. 1994)
+2.	Prompt the user and read in a value for the month of their birth(e.g. 2 for February)
+3.	Prompt the user and read in a value for the day of their birth (e.g. 14).
+4.	Print out the day of the week (Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, or Saturday) on which that day falls for year.
+
+	e.g. "You were born on a Sunday"
+
+Deliverables:
+
+1. Complete working Code with sample output. (60)
+2. Demo with TA. Setup time with TA. (40)
+
+NOTE: 
+- You can use any programming language you prefer.
+- You can impletment it either for desktop or mobileapp.
+
+
